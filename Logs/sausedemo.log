@@ -167,3 +167,154 @@
  04/19/2024 12:33:44 PM : INFO : TestcaseDDT : ******* DDT Login test passed ********** 
  04/19/2024 12:33:44 PM : INFO : TestcaseDDT : ******* End of Login DDT Test ********** 
  04/19/2024 12:33:44 PM : INFO : TestcaseDDT : **************** Completed  TestcaseDDT *************  
+ 04/19/2024 07:22:16 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 07:22:19 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 07:24:17 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 07:24:21 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 07:27:08 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 07:27:08 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:27:10 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 07:27:15 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 07:27:15 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:27:16 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 07:29:24 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 07:30:01 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 07:30:04 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 07:32:32 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 07:32:36 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 07:37:23 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 07:37:23 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:37:25 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 07:37:28 PM : INFO : TestcaseDDT : *********** TestcaseDDT ********** 
+ 04/19/2024 07:37:28 PM : INFO : TestcaseDDT : ********** Login DDT testcase started ********** 
+ 04/19/2024 07:37:28 PM : INFO : TestcaseDDT : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:37:32 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:37:34 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:37:37 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:37:39 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:37:39 PM : INFO : TestcaseDDT : ******* DDT Login test passed ********** 
+ 04/19/2024 07:37:39 PM : INFO : TestcaseDDT : ******* End of Login DDT Test ********** 
+ 04/19/2024 07:37:39 PM : INFO : TestcaseDDT : **************** Completed  TestcaseDDT *************  
+ 04/19/2024 07:44:01 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 07:44:01 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:44:02 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 07:45:22 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 07:45:22 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:45:23 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 07:45:47 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 07:45:47 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:45:51 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 07:47:28 PM : INFO : TestcaseDDT : *********** TestcaseDDT ********** 
+ 04/19/2024 07:47:28 PM : INFO : TestcaseDDT : ********** Login DDT testcase started ********** 
+ 04/19/2024 07:47:28 PM : INFO : TestcaseDDT : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:47:33 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:47:36 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:47:38 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:47:40 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:47:40 PM : INFO : TestcaseDDT : ******* DDT Login test passed ********** 
+ 04/19/2024 07:47:41 PM : INFO : TestcaseDDT : ******* End of Login DDT Test ********** 
+ 04/19/2024 07:47:41 PM : INFO : TestcaseDDT : **************** Completed  TestcaseDDT *************  
+ 04/19/2024 07:59:18 PM : INFO : TestcaseDDT : *********** TestcaseDDT ********** 
+ 04/19/2024 07:59:18 PM : INFO : TestcaseDDT : ********** Login DDT testcase started ********** 
+ 04/19/2024 07:59:18 PM : INFO : TestcaseDDT : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:59:23 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:59:26 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:59:28 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:59:31 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 07:59:31 PM : INFO : TestcaseDDT : ******* DDT Login test passed ********** 
+ 04/19/2024 07:59:31 PM : INFO : TestcaseDDT : ******* End of Login DDT Test ********** 
+ 04/19/2024 07:59:31 PM : INFO : TestcaseDDT : **************** Completed  TestcaseDDT *************  
+ 04/19/2024 07:59:43 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 07:59:43 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:59:43 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 07:59:48 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 07:59:48 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 07:59:49 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:00:57 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:00:57 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:00:57 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:01:02 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:01:02 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:01:11 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:02:55 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:02:55 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:03:00 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:03:04 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:03:04 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:03:09 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:05:14 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:05:14 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:05:19 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:05:24 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:05:24 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:05:33 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:07:04 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:07:04 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:07:05 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:07:09 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:07:09 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:07:14 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:18:16 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:18:16 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:18:17 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:18:22 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:18:22 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:18:32 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:19:33 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:19:33 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:19:38 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:19:43 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:19:43 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:19:47 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:23:44 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:23:44 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:23:45 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:23:49 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:23:49 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:23:58 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:24:49 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/19/2024 08:24:49 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:24:49 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/19/2024 08:24:54 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/19/2024 08:24:54 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:24:59 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/19/2024 08:26:22 PM : INFO : TestcaseDDT : *********** TestcaseDDT ********** 
+ 04/19/2024 08:26:22 PM : INFO : TestcaseDDT : ********** Login DDT testcase started ********** 
+ 04/19/2024 08:26:22 PM : INFO : TestcaseDDT : ********** Verifying Homepage Title ********** 
+ 04/19/2024 08:26:25 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 08:26:29 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 08:26:31 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 08:26:34 PM : INFO : TestcaseDDT : **** passed **** 
+ 04/19/2024 08:26:34 PM : INFO : TestcaseDDT : ******* DDT Login test passed ********** 
+ 04/19/2024 08:26:34 PM : INFO : TestcaseDDT : ******* End of Login DDT Test ********** 
+ 04/19/2024 08:26:34 PM : INFO : TestcaseDDT : **************** Completed  TestcaseDDT *************  
+ 04/19/2024 08:27:19 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 08:27:20 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 08:27:36 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 08:27:38 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 08:27:38 PM : INFO : TestCase002 : ********** Items added to Cart ********** 
+ 04/19/2024 08:27:39 PM : INFO : TestCase002 : ********** Checkout Successful ********** 
+ 04/19/2024 08:27:39 PM : INFO : TestCase002 : ********** Details added Successfully ********** 
+ 04/19/2024 08:27:40 PM : INFO : TestCase002 : ********** Order finished ********** 
+ 04/19/2024 08:27:40 PM : INFO : TestCase002 : ********** Verification done ********** 
+ 04/19/2024 08:31:20 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 08:31:22 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 08:31:22 PM : INFO : TestCase002 : ********** Items added to Cart ********** 
+ 04/19/2024 08:31:23 PM : INFO : TestCase002 : ********** Checkout Successful ********** 
+ 04/19/2024 08:31:23 PM : INFO : TestCase002 : ********** Details added Successfully ********** 
+ 04/19/2024 08:31:24 PM : INFO : TestCase002 : ********** Order finished ********** 
+ 04/19/2024 08:31:24 PM : INFO : TestCase002 : ********** Verification done ********** 
+ 04/19/2024 08:35:30 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 08:35:33 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 08:35:33 PM : INFO : TestCase002 : ********** Items added to Cart ********** 
+ 04/19/2024 08:35:34 PM : INFO : TestCase002 : ********** Checkout Successful ********** 
+ 04/19/2024 08:35:34 PM : INFO : TestCase002 : ********** Details added Successfully ********** 
+ 04/19/2024 08:35:36 PM : INFO : TestCase002 : ********** Order finished ********** 
+ 04/19/2024 08:35:36 PM : INFO : TestCase002 : ********** Verification done ********** 
+ 04/19/2024 08:36:16 PM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/19/2024 08:36:18 PM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/19/2024 08:36:18 PM : INFO : TestCase002 : ********** Items added to Cart ********** 
+ 04/19/2024 08:36:18 PM : INFO : TestCase002 : ********** Checkout Successful ********** 
+ 04/19/2024 08:36:18 PM : INFO : TestCase002 : ********** Details added Successfully ********** 
+ 04/19/2024 08:36:19 PM : INFO : TestCase002 : ********** Order finished ********** 
+ 04/19/2024 08:36:19 PM : INFO : TestCase002 : ********** Verification done ********** 

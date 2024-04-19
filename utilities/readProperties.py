@@ -11,10 +11,10 @@ class ReadConfig:
 
     @staticmethod
     def get_user_name():
-        user_name = config.get('common info', 'username')
+        user_name = config.get('common info', 'original_username')
         return user_name
 
     @staticmethod
     def get_password():
-        pass_word = config.get('common info', 'password')
+        pass_word = config.get('common info', 'original_password')
         return pass_word

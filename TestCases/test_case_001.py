@@ -39,6 +39,7 @@ class Testcase001:
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
+        time.sleep(3)
         actual_title2 = self.driver.title
         if actual_title2 == "Swag Labss":  #Actual title is 'Swag Labs'
             assert True
