@@ -318,3 +318,22 @@
  04/19/2024 08:36:18 PM : INFO : TestCase002 : ********** Details added Successfully ********** 
  04/19/2024 08:36:19 PM : INFO : TestCase002 : ********** Order finished ********** 
  04/19/2024 08:36:19 PM : INFO : TestCase002 : ********** Verification done ********** 
+ 04/22/2024 03:23:25 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/22/2024 03:23:25 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/22/2024 03:23:26 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/22/2024 03:23:32 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/22/2024 03:23:32 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/22/2024 03:23:37 PM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/23/2024 10:31:59 AM : INFO : Testcase001 : ********** Testcase001 **********  
+ 04/23/2024 10:31:59 AM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/23/2024 10:32:00 AM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 04/23/2024 10:32:11 AM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 04/23/2024 10:32:11 AM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 04/23/2024 10:32:16 AM : ERROR : Testcase001 : ********** Homepage title test failed ********** 
+ 04/23/2024 10:34:30 AM : INFO : TestCase002 : ********** Login testcase started ********** 
+ 04/23/2024 10:34:31 AM : INFO : TestCase002 : ********** Login Successful ********** 
+ 04/23/2024 10:34:31 AM : INFO : TestCase002 : ********** Items added to Cart ********** 
+ 04/23/2024 10:34:32 AM : INFO : TestCase002 : ********** Checkout Successful ********** 
+ 04/23/2024 10:34:33 AM : INFO : TestCase002 : ********** Details added Successfully ********** 
+ 04/23/2024 10:34:34 AM : INFO : TestCase002 : ********** Order finished ********** 
+ 04/23/2024 10:34:34 AM : INFO : TestCase002 : ********** Verification done ********** 

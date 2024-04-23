@@ -2,21 +2,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
-class AddToCartPage:
-    cart_item1_loc_xpath  = "(//button[@class='btn_primary btn_inventory'])[1]"
-    cart_item2_loc_xpath  = "(//button[@class='btn_primary btn_inventory'])[3]"
-    cart_icon_loc_xpath = "//*[name()='path' and contains(@fill,'currentCol')]"
-    checkout_loc_xpath = "//a[contains(text(),'CHECKOUT')]"
-    first_name_loc_id = "first-name"
-    last_name_loc_id = "last-name"
-    postal_code_loc_id = "postal-code"
-    submit_button_loc_xpath = "//input[@type='submit']"
-    finish_button_loc_xpath = "//a[contains(text(), 'FINISH')]"
-    order_success_loc_xpath = "//h2[@class='complete-header']"
+from PageObjects.Locators.Locators import Locators
 
 
-
+class AddToCartPage(Locators):
 
     def __init__(self, driver):    # this constructor will get driver from testcase, and initialise it with current local driver.
         self.driver = driver

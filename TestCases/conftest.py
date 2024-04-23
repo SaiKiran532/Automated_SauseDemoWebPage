@@ -11,9 +11,12 @@ def setup(browser):
     elif browser == 'firefox':
         driver = webdriver.Firefox()
         print("Launching Firefox browser")
-    else:
+    elif browser == 'edge':
         driver = webdriver.Edge()
         print("Launching Edge browser")
+    else:
+        driver = webdriver.Chrome()
+        print("Default browser Chrome")
     driver.maximize_window()
     driver.implicitly_wait(5)
     return driver
