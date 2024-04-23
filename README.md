@@ -1,5 +1,5 @@
 # What is this?
-This is a sample test automation framework for https://rahulshettyacademy.com/seleniumPractise/#/. This url contains Greencart Page  which is a sample website built by Rahulshettyacademy that allows users to practice browser automation.
+This is a sample test automation framework for www.saucedemo.com. SauceDemo is a sample website built by SauceLabs that allows users to practice browser automation.
 
 **Why would you write automated tests for a fake website?**
 
@@ -30,12 +30,15 @@ However, this doesn't give a lot of insight into what a test automation framewor
 * How to run multiple tests simultaneously.
 * How to include test frameworks like Pytest.
 
-This example can be used as a starting point for beginners of Selenium to play around and experiment with. It utilizes Greencartpage simple and easy website so you don't have to worry about overly complex test cases.
+This example can be used as a starting point for beginners of Selenium to play around and experiment with. It utilizes SauceLab's simple and easy website so you don't have to worry about overly complex test cases.
 
+**Why saucedemo.com?**
+
+Saucelabs is a reputable automation testing platform company. It is likely to remain online without being taken down, allowing this demo to be viewed and run by others. This website was built to be automated against. Saucedemo.com is reliable and quick which leads to few false positive test failures.
 
 **What do these tests cover?**
 
-These tests cover many test cases such as Adding items to the cart, checking out and placing the order.
+These tests cover many test cases such as signing in/out, adding items to the cart, and checking out.
 
 **What isn't tested?**
 
