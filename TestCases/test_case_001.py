@@ -1,10 +1,9 @@
 import time
-
-import pytest
-from selenium import webdriver
 from PageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+
+
 class Testcase001:
     pageurl = ReadConfig.get_Application_url()
     username = ReadConfig.get_user_name()
@@ -19,6 +18,7 @@ class Testcase001:
 
         self.driver = setup
         self.driver.get(self.pageurl)
+        time.sleep(2)
         actual_title1 = self.driver.title
         if actual_title1 == "Swag Labs":
             assert True
@@ -29,10 +29,10 @@ class Testcase001:
             self.driver.close()
             self.logger.error("********** Homepage title test failed **********")
             assert False
-    @pytest.mark.sanity
+
     def test_login(self, setup):
         self.logger.info("********** Login testcase started **********")
-        self.logger.info("********** Verifying Homepage Title **********")
+        self.logger.info("********** Verifying CartPage Url **********")
         self.driver = setup
         self.driver.get(self.pageurl)
         self.lp = LoginPage(self.driver)
@@ -40,18 +40,14 @@ class Testcase001:
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
         time.sleep(3)
-        actual_title2 = self.driver.title
-        if actual_title2 == "Swag Labss":  #Actual title is 'Swag Labs'
+        curr_url = self.driver.current_url
+        if curr_url == "https://www.saucedemo.com/v1/inventory.html":
             assert True
-            self.driver.close()
-            self.logger.info("********** Homepage title test passed **********")
+            self.logger.info("********** CartPage Url test passed **********")
         else:
             self.driver.save_screenshot(self.scree_shot_path)
-            self.driver.close()
-            self.logger.error("********** Homepage title test failed **********")
+            self.logger.error("********** CartPage Url test failed **********")
             assert False
         self.lp.clickThreeLineButton()
         self.lp.clickLogout()
-
-
-
+        self.driver.close()

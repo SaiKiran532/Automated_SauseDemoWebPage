@@ -44,6 +44,7 @@ class TestCase002:
         else:
             print("Test failed")
         self.logger.info("********** Verification done **********")
+        self.driver.close()
 
 
 
