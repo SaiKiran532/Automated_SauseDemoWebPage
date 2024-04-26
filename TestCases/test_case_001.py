@@ -49,5 +49,7 @@ class Testcase001:
             self.logger.error("********** CartPage Url test failed **********")
             assert False
         self.lp.clickThreeLineButton()
+        time.sleep(2)
         self.lp.clickLogout()
+        time.sleep(1)
         self.driver.close()

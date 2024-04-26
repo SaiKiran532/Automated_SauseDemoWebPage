@@ -28,15 +28,19 @@ class TestCase002:
 
         self.cartpage = AddToCartPage(self.driver)
         self.cartpage.addItemToCart()
+        time.sleep(2)
         self.logger.info("********** Items added to Cart **********")
 
         self.cartpage.clickCartIcon()
+        time.sleep(2)
         self.cartpage.clickCheckOut()
         self.logger.info("********** Checkout Successful **********")
         self.cartpage.enterDetails(self.first_name, self.last_name, self.postal_code)
+        time.sleep(1)
         self.logger.info("********** Details added Successfully **********")
         self.cartpage.clickSubmit()
         self.cartpage.clickFinish()
+        time.sleep(3)
         self.logger.info("********** Order finished **********")
 
         if self.cartpage.verifySuccessMsg() == 'THANK YOU FOR YOUR ORDER':
