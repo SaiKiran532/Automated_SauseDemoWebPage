@@ -4,7 +4,7 @@ class LogGen:
 
     @staticmethod
     def log_gen():
-        logs_file_path = "C:\\Users\\saikiran.challa\\PycharmProjects\\pythonProject5\\Logs\\sausedemo.log"
+        logs_file_path = "C:\\Users\\saikiran.challa\\PycharmProjects\\pythonProject5\\Logs\\salesforce.log"
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
         filehandler = logging.FileHandler(logs_file_path)

@@ -18,3 +18,8 @@ class ReadConfig:
     def get_password():
         pass_word = config.get('common info', 'original_password')
         return pass_word
+
+    @staticmethod
+    def get_home_page_title():
+        home_page_title = config.get('common info', 'home_page_title')
+        return home_page_title

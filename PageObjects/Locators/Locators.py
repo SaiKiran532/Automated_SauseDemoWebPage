@@ -1,27 +1,57 @@
 class Locators:
     # login locators
-    username_loc_id = "user-name"
+    username_loc_id = "username"
     password_loc_id = "password"
-    button_loc_id = "login-button"
+    button_loc_id = "Login"
 
     # logout locators
-    main_menu_loc_xpath = "//button[contains(text(),'Open Menu')]"
-    logout_loc_linktext = "Logout"
+    profile_button = "//div[contains(@class,'profile')]//span[@class='uiImage']"
+    logout_loc_linktext = "Log Out"
 
-    # cart item adding locators
-    cart_item1_loc_xpath = "(//button[@class='btn_primary btn_inventory'])[1]"
-    cart_item2_loc_xpath = "(//button[@class='btn_primary btn_inventory'])[3]"
+    # creating lead locators
+    sales_tab = "(//span[text()='Sales'])[1]"
+    accounts_tab = "(//span[text()='Accounts'])[1]"
+    drop_downs = "//one-app-nav-bar-item-root[@data-id='{}']//lightning-primitive-icon[@exportparts='icon']//*[name()='svg']"
+    new_lead_button = "a[title='New'][role='button']"
+    lead_salutation = "//button[@name='salutation']"
+    salutation_option = "//span[@title='{}']"
+    first_name = "//input[@name='firstName']"
+    last_name = "//input[@name='lastName']"
+    company = "//input[@name='Company']"
+    save_button = "//button[@name='SaveEdit']"
 
-    # cart item icon locators
-    cart_icon_loc_xpath = "//*[name()='path' and contains(@fill,'currentCol')]"
+    #Other locators
+    leads_tab = "(//a[@class='slds-context-bar__label-action dndItem']/child::span)[1]"
+    contact_tab = "(//a[@class='slds-context-bar__label-action dndItem']/child::span)[2]"
+    account_tab = "(//a[@class='slds-context-bar__label-action dndItem']/child::span)[3]"
+    opportunities_tab = "(//a[@class='slds-context-bar__label-action dndItem']/child::span)[4]"
+    show_more = "//a[contains(@class,'rowActionsPlaceHolder slds-button')]"
+    delete_option = "//a[@title='Delete']"
+    delete_button = "//span[contains(@class,'label bBody')][normalize-space()='Delete']"
+    convert_button1 = "//button[@name='Convert']"
+    convert_button2 = "(//button[text()='Convert'])[2]"
+    goto_leads = "//button[text()='Go to Leads']"
+    verify_lead_created = "(//lightning-formatted-name[contains(.,'Mr.')])[1]"
+    lead_converted_verify = "//h2[normalize-space()='Your lead has been converted']"
+    existing_account = "//a[normalize-space()='{}']"
+    new_opportunity = "//button[normalize-space()='New Opportunity']"
 
-    # checkout locator
-    checkout_loc_xpath = "//a[contains(text(),'CHECKOUT')]"
 
-    # user details locators and confirming order locators
-    first_name_loc_id = "first-name"
-    last_name_loc_id = "last-name"
-    postal_code_loc_id = "postal-code"
-    submit_button_loc_xpath = "//input[@type='submit']"
-    finish_button_loc_xpath = "//a[contains(text(), 'FINISH')]"
-    order_success_loc_xpath = "//h2[@class='complete-header']"
+    # Create new contact
+    new_contact = "//button[normalize-space()='New Contact']"
+    contact_salutation = "(//a[text()='--None--'])[1]"
+    contact_salutation_option = "//a[normalize-space()='{}']"
+    contact_first_name = "//input[@placeholder='First Name']"
+    contact_last_name = "//input[@placeholder='Last Name']"
+    contact_or_opportunity_save_button = "//button[contains(@class,'slds-button slds-button_brand c')]/child::span"
+    verify_contact_or_opportunity = "//slot[contains(text(),'{}')]"
+
+    # Create Opportunity
+    opportunity_name = "(//input[@class=' input'])[1]"
+
+
+
+
+
+
+
