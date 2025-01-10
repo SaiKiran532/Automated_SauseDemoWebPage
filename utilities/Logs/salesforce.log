@@ -1,0 +1,76 @@
+ 01/09/2025 02:31:17 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/09/2025 02:31:17 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/09/2025 02:31:24 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/09/2025 02:31:24 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/09/2025 02:32:00 PM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/09/2025 02:32:27 PM : INFO : Testcase001 : Lead created: Robert Twin, Acme Corp 
+ 01/09/2025 02:32:27 PM : INFO : Testcase001 : Verifying lead has created 
+ 01/09/2025 02:32:27 PM : INFO : Testcase001 : ********** Lead has successfully created and verified ********** 
+ 01/09/2025 02:32:38 PM : INFO : Testcase001 : Lead Converted 
+ 01/09/2025 02:32:43 PM : INFO : Testcase001 : ********** Lead has successfully created and verified ********** 
+ 01/09/2025 02:33:28 PM : INFO : Testcase001 : Contact created 
+ 01/09/2025 02:33:34 PM : INFO : Testcase001 : ********** Contact has successfully created and verified ********** 
+ 01/09/2025 02:34:12 PM : INFO : Testcase001 : Opportunity created 
+ 01/09/2025 02:34:17 PM : INFO : Testcase001 : ********** Opportunity has successfully created and verified ********** 
+ 01/09/2025 02:34:50 PM : INFO : Testcase001 : Account Removed Successfully 
+ 01/09/2025 02:35:05 PM : INFO : Testcase001 : Logged out Successfully 
+ 01/10/2025 11:29:28 AM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 11:29:28 AM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 11:29:31 AM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 11:29:31 AM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 11:34:47 AM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 11:34:47 AM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 11:34:51 AM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 11:34:51 AM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 11:41:24 AM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 11:41:24 AM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 11:41:27 AM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 11:41:27 AM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 11:41:30 AM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/10/2025 12:12:54 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 12:12:54 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 12:12:58 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 12:12:58 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 12:13:17 PM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/10/2025 12:13:53 PM : INFO : Testcase001 : Lead created: Robert Twin, Acme Corp 
+ 01/10/2025 12:13:53 PM : INFO : Testcase001 : Verifying lead has created 
+ 01/10/2025 12:13:53 PM : INFO : Testcase001 : ********** Lead has successfully created and verified ********** 
+ 01/10/2025 12:16:32 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 12:16:32 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 12:16:36 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 12:16:36 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 12:16:57 PM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/10/2025 12:17:08 PM : INFO : Testcase001 : Lead Converted 
+ 01/10/2025 12:17:13 PM : INFO : Testcase001 : ********** Lead has successfully created and verified ********** 
+ 01/10/2025 12:31:31 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 12:31:31 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 12:31:35 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 12:31:35 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 12:31:59 PM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/10/2025 12:32:39 PM : INFO : Testcase001 : Contact created 
+ 01/10/2025 12:32:43 PM : INFO : Testcase001 : ********** Contact has successfully created and verified ********** 
+ 01/10/2025 12:37:25 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 12:37:25 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 12:37:29 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 12:37:29 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 12:37:50 PM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/10/2025 12:38:29 PM : INFO : Testcase001 : Opportunity created 
+ 01/10/2025 12:38:34 PM : INFO : Testcase001 : ********** Opportunity has successfully created and verified ********** 
+ 01/10/2025 12:39:07 PM : INFO : Testcase001 : Account Removed Successfully 
+ 01/10/2025 12:39:22 PM : INFO : Testcase001 : Logged out Successfully 
+ 01/10/2025 12:41:41 PM : INFO : Testcase001 : ********** Testcase001 **********  
+ 01/10/2025 12:41:41 PM : INFO : Testcase001 : ********** Verifying Homepage Title ********** 
+ 01/10/2025 12:41:45 PM : INFO : Testcase001 : ********** Homepage title test passed ********** 
+ 01/10/2025 12:41:45 PM : INFO : Testcase001 : ********** Login testcase started ********** 
+ 01/10/2025 12:42:01 PM : INFO : Testcase001 : ********** Login testcase ended ********** 
+ 01/10/2025 12:42:28 PM : INFO : Testcase001 : Lead created: Robert Twin, Acme Corp 
+ 01/10/2025 12:42:28 PM : INFO : Testcase001 : Verifying lead has created 
+ 01/10/2025 12:42:28 PM : INFO : Testcase001 : ********** Lead has successfully created and verified ********** 
+ 01/10/2025 12:42:39 PM : INFO : Testcase001 : Lead Converted 
+ 01/10/2025 12:42:44 PM : INFO : Testcase001 : ********** Lead has successfully created and verified ********** 
+ 01/10/2025 12:43:29 PM : INFO : Testcase001 : Contact created 
+ 01/10/2025 12:43:34 PM : INFO : Testcase001 : ********** Contact has successfully created and verified ********** 
+ 01/10/2025 12:44:13 PM : INFO : Testcase001 : Opportunity created 
+ 01/10/2025 12:44:18 PM : INFO : Testcase001 : ********** Opportunity has successfully created and verified ********** 
+ 01/10/2025 12:44:50 PM : INFO : Testcase001 : Account Removed Successfully 
+ 01/10/2025 12:45:06 PM : INFO : Testcase001 : Logged out Successfully 

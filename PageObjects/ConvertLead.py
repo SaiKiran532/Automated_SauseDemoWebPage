@@ -1,39 +1,53 @@
 import logging
-import time
-
 from selenium.webdriver.common.by import By
 from PageObjects.Locators.Locators import Locators
-from selenium.webdriver import ActionChains
+from GenericWrappers.WebDriverUtils import WebDriverUtils
 
 
 class ConvertLead(Locators):
     def __init__(self, driver):
         self.driver = driver
         self.logger = logging.getLogger(__name__)
+        self.utils = WebDriverUtils(driver)
 
     def convert_lead(self):
+        """Converts a lead."""
         try:
-            self.logger.info("Clicking the convert")
-            action = ActionChains(self.driver)
-            action.move_to_element(self.driver.find_element(By.XPATH, self.convert_button1)).click().perform()
-            time.sleep(5)
-            action.move_to_element(self.driver.find_element(By.XPATH, self.convert_button2)).click().perform()
-            time.sleep(5)
+            self.logger.info("Initiating lead conversion.")
 
-            self.logger.info("Lead converted successfully")
+            # Click the Convert buttons
+            self.utils.action_click(By.XPATH, self.convert_button1)
+            self.utils.wait_for_seconds(5)
+            self.utils.action_click(By.XPATH, self.convert_button2)
+            self.utils.wait_for_seconds(5)
 
+            self.logger.info("Lead converted successfully.")
         except Exception as e:
             self.logger.error(f"An error occurred while converting a lead: {e}")
-            self.driver.save_screenshot("convert_lead_error.png")
+            self.utils.take_screenshot("convert_lead_error")
             raise
 
     def verify_lead_has_converted(self):
-        # Verifying lead has converted
-        time.sleep(5)
-        element = self.driver.find_element(By.XPATH, self.lead_converted_verify)
-        return element.text
+        """Verifies if the lead has been converted."""
+        try:
+            self.logger.info("Verifying if the lead has been converted.")
+            self.utils.wait_for_seconds(5)
+            element = self.utils.get_element(By.XPATH, self.lead_converted_verify)
+            self.logger.info("Lead conversion verified successfully.")
+            return element.text
+        except Exception as e:
+            self.logger.error(f"An error occurred while verifying lead conversion: {e}")
+            self.utils.take_screenshot("verify_lead_error")
+            raise
 
     def go_to_leads_page(self):
-        action = ActionChains(self.driver)
-        action.move_to_element(self.driver.find_element(By.XPATH, self.goto_leads)).click().perform()
-        time.sleep(5)
+        """Navigates to the Leads page."""
+        try:
+            self.logger.info("Navigating to the Leads page.")
+            self.utils.action_click(By.XPATH, self.goto_leads)
+            self.utils.wait_for_seconds(5)
+            self.logger.info("Successfully navigated to the Leads page.")
+        except Exception as e:
+            self.logger.error(f"An error occurred while navigating to the Leads page: {e}")
+            self.utils.take_screenshot("go_to_leads_error")
+            raise

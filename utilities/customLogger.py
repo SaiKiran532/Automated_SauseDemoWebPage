@@ -1,10 +1,13 @@
 import inspect
 import logging
+import os
 class LogGen:
 
     @staticmethod
     def log_gen():
-        logs_file_path = "C:\\Users\\saikiran.challa\\PycharmProjects\\pythonProject5\\Logs\\salesforce.log"
+        project_root = os.path.dirname(os.path.abspath(__file__))
+        logs_folder = os.path.join(project_root, "Logs")
+        logs_file_path = os.path.join(logs_folder, "salesforce.log")
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
         filehandler = logging.FileHandler(logs_file_path)

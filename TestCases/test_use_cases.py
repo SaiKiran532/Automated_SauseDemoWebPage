@@ -7,8 +7,10 @@ from PageObjects.CreateContact import CreateContact
 from PageObjects.CreateLead import CreateLead
 from PageObjects.CreateOpportunity import CreateOpportunity
 from PageObjects.LoginPage import LoginPage
+from PageObjects.RemoveAccount import RemoveAccount
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+import os
 
 
 class Testcase001:
@@ -17,7 +19,9 @@ class Testcase001:
     password = ReadConfig.get_password()
     logger = LogGen.log_gen()
 
-    scree_shot_path = "C:\\Users\\saikiran.challa\\PycharmProjects\\pythonProject5\\Screenshots\\test_homepage_title.png"
+    project_root = os.path.dirname(os.path.abspath(__file__))
+    screenshot_folder = os.path.join(project_root, "Screenshots")
+    screenshot_path = os.path.join(screenshot_folder, "test_homepage_title.png")
 
     def test_salesforce_page_title(self, setup):
         self.logger.info("********** Testcase001 ********** ")
@@ -31,7 +35,7 @@ class Testcase001:
             assert True
             self.logger.info("********** Homepage title test passed **********")
         else:
-            self.driver.save_screenshot(self.scree_shot_path)
+            self.driver.save_screenshot(self.screenshot_path)
             self.logger.error("********** Homepage title test failed **********")
             assert False
 
@@ -39,10 +43,9 @@ class Testcase001:
         self.logger.info("********** Login testcase started **********")
         self.driver = setup
         self.lp = LoginPage(self.driver)
-        self.lp.setUserName(self.username)
-        self.lp.setPassword(self.password)
-        self.lp.clickLogin()
-        time.sleep(5)
+        self.lp.set_user_name(self.username)
+        self.lp.set_password(self.password)
+        self.lp.click_login()
         self.logger.info("********** Login testcase ended **********")
 
     @pytest.mark.parametrize("salutation, first_name, last_name, company", [
@@ -59,7 +62,7 @@ class Testcase001:
             assert True
             self.logger.info("********** Lead has successfully created and verified **********")
         else:
-            self.driver.save_screenshot(self.scree_shot_path)
+            self.driver.save_screenshot(self.screenshot_path)
             self.logger.error("********** Failed in verifying lead **********")
             assert False
 
@@ -74,7 +77,7 @@ class Testcase001:
             assert True
             self.logger.info("********** Lead has successfully created and verified **********")
         else:
-            self.driver.save_screenshot(self.scree_shot_path)
+            self.driver.save_screenshot(self.screenshot_path)
             self.logger.error("********** Failed in verifying lead **********")
             assert False
 
@@ -87,31 +90,46 @@ class Testcase001:
         self.driver = setup
         self.cc = CreateContact(self.driver)
         self.cc.create_contact(salutation,first_name,last_name,existing_contact)
-        self.logger.info(f"Contact Saved")
+        self.logger.info(f"Contact created")
 
-        text = self.cc.verify_contact_has_saved(contact_name)
+        text = self.cc.verify_contact_has_saved(contact_name,existing_contact)
         if text == "Noya B":
             assert True
-            self.logger.info("********** Lead has successfully created and verified **********")
+            self.logger.info("********** Contact has successfully created and verified **********")
         else:
-            self.driver.save_screenshot(self.scree_shot_path)
-            self.logger.error("********** Failed in verifying lead **********")
+            self.driver.save_screenshot(self.screenshot_path)
+            self.logger.error("********** Failed in verifying Contact **********")
             assert False
 
-    @pytest.mark.parametrize("opportunity_name", [
-        ("Zaya Opp")
+    @pytest.mark.parametrize("opportunity_name,existing_contact,close_date,stage,forecast_category", [
+        ("Zaya Opp","Acme Corp","02/2/2025","Propose","Pipeline")
     ])
-    def test_create_opportunity(self,opportunity_name,setup):
+    def test_create_opportunity(self,opportunity_name,existing_contact,close_date,stage,forecast_category,setup):
         self.driver = setup
         self.cp = CreateOpportunity(self.driver)
-        self.cp.create_opportunity(opportunity_name)
-        self.logger.info(f"Contact Saved")
+        self.cp.create_opportunity(opportunity_name,existing_contact,close_date,stage,forecast_category)
+        self.logger.info(f"Opportunity created")
 
-        text = self.cp.verify_opportunity_has_saved(opportunity_name)
+        text = self.cp.verify_opportunity_has_saved(opportunity_name,existing_contact)
         if text == "Zaya Opp":
             assert True
-            self.logger.info("********** Lead has successfully created and verified **********")
+            self.logger.info("********** Opportunity has successfully created and verified **********")
         else:
-            self.driver.save_screenshot(self.scree_shot_path)
-            self.logger.error("********** Failed in verifying lead **********")
+            self.driver.save_screenshot(self.screenshot_path)
+            self.logger.error("********** Failed in verifying Opportunity **********")
             assert False
+
+
+    def test_remove_account(self,setup):
+        self.driver = setup
+        self.rc = RemoveAccount(self.driver)
+        self.rc.remove_account()
+        self.logger.info(f"Account Removed Successfully")
+
+
+    def test_loggout_from_Sales_force(self,setup):
+        self.driver = setup
+        self.lp = LoginPage(self.driver)
+        self.lp.click_logout()
+        self.logger.info(f"Logged out Successfully")
+

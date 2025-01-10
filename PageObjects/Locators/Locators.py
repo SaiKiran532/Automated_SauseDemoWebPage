@@ -12,8 +12,8 @@ class Locators:
     sales_tab = "(//span[text()='Sales'])[1]"
     accounts_tab = "(//span[text()='Accounts'])[1]"
     drop_downs = "//one-app-nav-bar-item-root[@data-id='{}']//lightning-primitive-icon[@exportparts='icon']//*[name()='svg']"
-    new_lead_button = "a[title='New'][role='button']"
-    lead_salutation = "//button[@name='salutation']"
+    new_button = "a[title='New'][role='button']"
+    salutation = "//button[@name='salutation']"
     salutation_option = "//span[@title='{}']"
     first_name = "//input[@name='firstName']"
     last_name = "//input[@name='lastName']"
@@ -43,11 +43,21 @@ class Locators:
     contact_salutation_option = "//a[normalize-space()='{}']"
     contact_first_name = "//input[@placeholder='First Name']"
     contact_last_name = "//input[@placeholder='Last Name']"
+    select_account_name = "//input[@placeholder='Search Accounts...']"
+    account_option = "//lightning-base-combobox-formatted-text[@title='{}']"
     contact_or_opportunity_save_button = "//button[contains(@class,'slds-button slds-button_brand c')]/child::span"
     verify_contact_or_opportunity = "//slot[contains(text(),'{}')]"
 
     # Create Opportunity
-    opportunity_name = "(//input[@class=' input'])[1]"
+    opportunity_name = "//input[@name='Name']"
+    close_date = "//input[@name='CloseDate']"
+    stage = "//button[@aria-label='Stage']"
+    select_stage_option = "//span[@title='{}']"
+    forecast_category = "//button[@aria-label='Forecast Category']"
+    forecast_category_option = "//span[@title='{}']"
+
+
+
 
 
 
