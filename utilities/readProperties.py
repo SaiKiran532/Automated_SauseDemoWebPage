@@ -1,7 +1,13 @@
 import configparser
+from pathlib import Path
+
+# Get the dynamic path to the configuration file
+base_dir = Path(__file__).resolve().parent.parent  # Adjust based on your project structure
+config_path = base_dir / "Configurations" / "config.ini"
+
+# Initialize the configparser
 config = configparser.RawConfigParser()
-path = "C:\\Users\\saikiran.challa\\PycharmProjects\\pythonProject5\\Configurations\\config.ini"
-config.read(path)
+config.read(config_path)
 
 class ReadConfig:
     @staticmethod
